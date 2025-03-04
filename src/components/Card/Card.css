@@ -1,0 +1,36 @@
+.allcards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px; 
+    padding: 20px;
+    justify-content: center;
+    background-color: #F6F6F6;
+    border-radius: 25px;
+  }
+.card {
+   
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    position: relative; 
+   
+  }
+  
+  .card-cover {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; 
+    border-radius: 10px;
+  }
+
+  .card span {
+    font-weight: 700;
+    size: 18px;
+    position: absolute;
+    bottom: 10px; /* Distance du bas */
+    left: 10px; /* Distance de la gauche */
+    color: white; /* Texte blanc */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+  }

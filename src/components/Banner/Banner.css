@@ -1,0 +1,26 @@
+img.banner-image{
+    height: 223px;
+    width: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
+.banner-title {
+    position: absolute;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 48px;
+    z-index: 1;
+    margin-top: -140px;
+    text-align: center;
+    width: 100%;
+}
+
+.banner-style-in-home-page {
+    padding-bottom: 43px;
+}
+
+.banner-style-in-home-page .banner-style {
+    position: relative;
+}
