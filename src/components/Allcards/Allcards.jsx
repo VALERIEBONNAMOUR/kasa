@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom'
-import Card from '../Card/Card'
-import jsonData from '../../../public/housing.json'
+import { Link } from 'react-router-dom';
+import Card from '../Card/Card';
+import jsonData from '../../../src/housing.json';
 
 function Allcards() {
   return (

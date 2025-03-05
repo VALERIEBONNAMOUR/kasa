@@ -11,8 +11,7 @@
    
     border-radius: 10px;
     overflow: hidden;
-    text-align: center;
-    position: relative; 
+    position: relative;
    
   }
   
@@ -26,11 +25,14 @@
   .card span {
     font-weight: 700;
     size: 18px;
-    position: absolute;
-    bottom: 10px; /* Distance du bas */
-    left: 10px; /* Distance de la gauche */
-    color: white; /* Texte blanc */
-    padding: 5px 10px;
+    position: relative;
+    bottom: 50px; 
+    left: 10px; 
+    color: white; 
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 13px;
+  }
+
+  .card.card-wrapper{
+    height: 200px;
   }

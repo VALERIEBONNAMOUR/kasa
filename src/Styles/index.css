@@ -2,10 +2,8 @@
   margin: 0;
 }
 
-body{
+html,body{
   max-width: 1440px;
   height: 1213px;
-  margin-right: auto;
-  margin-left: auto;
   font-family: 'Montserrat' , sans-serif;
 }

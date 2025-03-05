@@ -1,0 +1,22 @@
+.collapse
+{
+    background-color: #FF6060;
+    border-radius: 5px;
+}
+
+.collapse-header{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 54px;
+}
+
+h3{
+    color: white;
+}
+
+p{
+    background-color: white;
+    padding-top: 20px;
+}
