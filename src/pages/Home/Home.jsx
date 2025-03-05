@@ -6,13 +6,11 @@ import homeimg from '../../assets/homeimg.png';
 import Allcards from "../../components/Allcards/Allcards";
 
 
-
 const Home = () => {
     return (
-        <main>
             <section>
         <div>
-            <Header />
+            
             <Banner
                 className="banner-style-in-home-page"
                 title="Chez vous, partout et ailleurs"
@@ -20,10 +18,7 @@ const Home = () => {
             />
             <Allcards />
         </div>
-        </section>
-        <Footer />
-        </main> 
-        
+        </section>   
     );
     
 };

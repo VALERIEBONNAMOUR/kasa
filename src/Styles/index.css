@@ -1,9 +1,9 @@
-*{
+body{
   margin: 0;
+  
+  font-family: 'Montserrat' , sans-serif;
 }
 
-html,body{
-  max-width: 1440px;
-  height: 1213px;
-  font-family: 'Montserrat' , sans-serif;
+main{
+  padding: 40px;
 }
