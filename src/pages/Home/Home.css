@@ -3,4 +3,11 @@
       max-width: 1240px; 
       margin: auto; 
     }
-}  
+} 
+
+/* Responsive tablet */
+@media screen and (max-width : 991px){
+    .main{
+        padding: 20px;
+    }
+}

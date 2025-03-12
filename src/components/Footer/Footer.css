@@ -12,3 +12,18 @@
     color: white;
 }
 
+/* Responsive tablet */
+
+/* Responsive mobile */
+@media  screen and (max-width : 767px){
+    .footer-rights{
+        width: 30%;
+        font-size: 12px;
+        margin-left: 25px;
+    }
+
+    .footer{
+        gap: 20px!important;
+    }
+}
+

@@ -24,3 +24,28 @@ img.banner-image{
 .banner-style-in-home-page .banner-style {
     position: relative;
 }
+
+
+/* responsive tablet */
+
+/* responsive mobile */
+@media  screen and (max-width : 767px) {
+    img.banner-image{
+        height: 111px;
+        /* filter: brightness(40%)!important; */
+    }
+
+    h2.banner-title{
+        font-size: 24px!important;
+        padding-top: 60px;
+        padding-left: 15px;
+        line-height: 24px;
+        text-align: start;
+        width: 60%;
+    }
+
+    .banner.banner-style-in-home-page{
+        padding-bottom: 12px!important;
+    }
+
+}

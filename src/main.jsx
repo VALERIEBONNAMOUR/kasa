@@ -7,17 +7,17 @@ import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-rou
 import Error from './pages/Error/Error';
 import Apropos from "./pages/Apropos/Apropos";
 
-ReactDOM.createRoot(document.getElementById("root")).render( 
+
+
+ReactDOM.createRoot(document.getElementById("root")).render(
   <Router>
-    {/* <Header /> */}
     <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="/apropos" element={<Apropos />} />
-      <Route index element={<Home />} />
-      <Route path="*" element={<Error />} /> 
-      
+      <Route path="/" element={<App />}>
+        <Route path="/apropos" element={<Apropos />} />
+        <Route index element={<Home />} />
+        <Route path="*" element={<Error />} />
+      </Route>
     </Routes>
-    {/* <Footer /> */}
+
   </Router>
 )
-

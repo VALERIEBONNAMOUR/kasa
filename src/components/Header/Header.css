@@ -24,3 +24,47 @@
     text-decoration: none;
     font-size: 24px;
 }
+
+/* responsive tablet */
+@media screen and (max-width : 991px){
+    .banner-title{
+        font-size: 30px!important;
+    }
+}
+
+/* responsive mobile */
+@media  screen and (max-width : 767px) {
+    img.logo-kasa{
+        object-fit: contain;
+        width: 100%;
+        max-width: 130px;
+    }
+
+    nav.header-style{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap:nowrap;
+        padding: 20px;
+    }
+
+    .nav__links__link{
+        font-size: 14px;
+    }
+
+    .nav{
+        gap: 20px;
+        margin-top: 20px;
+        text-transform: uppercase;
+    }
+
+    main{
+        padding: 20px;
+    }
+
+    .banner-title{
+        text-align: left;
+        font-size: 40px!important;
+    }
+    
+}

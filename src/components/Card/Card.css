@@ -36,3 +36,18 @@
   .card.card-wrapper{
     height: 200px;
   }
+
+  /* Responsive tablet */
+
+  /* Responsive mobile */
+  @media  screen and (max-width : 767px) {
+    .card span{
+        font-size: 16px!important;
+        left: 13px;
+    }
+
+    .allcards{
+        padding: 5px;
+        background-color: white;
+    }
+  }

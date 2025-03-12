@@ -2,6 +2,18 @@
 {
     background-color: #FF6060;
     border-radius: 5px;
+ 
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .collapse-header{
@@ -14,9 +26,13 @@
 
 h3{
     color: white;
+   
 }
 
 p{
     background-color: white;
     padding-top: 20px;
+    opacity: 0; /* Caché au départ */
+    animation: fadeIn 1s ease-in-out forwards;
+    animation-delay: 1s; /* Délai avant le début */
 }

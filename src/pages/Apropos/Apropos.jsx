@@ -1,14 +1,12 @@
 import { Link } from 'react-router-dom'
-import Header from "../../components/Header/Header";
-import Footer from "../../components/Footer/Footer";
 import apropimg from "../../assets/apropimg.png";
 import Banner from '../../components/Banner/Banner';
 import Collapse from '../../components/Collapse/Collapse';
+import "./Apropos.css";
 
 function Apropos() {
     return (
-      <div>
-        <Header />
+      <div> 
         <Banner
                 className="banner-style-in-home-page"
                 image={apropimg}
@@ -40,7 +38,6 @@ function Apropos() {
             Nous organisons également des ateliers sur la sécurité domestique pour nos 
             hôtes.</p>
         </Collapse>
-        <Footer />
       </div>
       </div>
     );

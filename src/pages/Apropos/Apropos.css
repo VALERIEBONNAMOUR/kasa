@@ -1,0 +1,30 @@
+/* Breakpoint */
+@media screen and (max-width : 2192px){
+    img.banner-image{
+        height: 260px;
+    }
+    .footer{
+        height: 500px;
+    }
+}
+
+/* Responsive tablet */
+@media  screen and (max-width : 991px) {
+    img.banner-image{
+        height: 280px;
+    }
+    .footer{
+        height: 500px;
+    }
+}
+
+/* Responsive mobile */
+@media  screen and (max-width : 767px){
+  img.banner-image{
+    height: 223px;
+  }
+
+  .footer{
+    height: 350px;
+  }
+}
