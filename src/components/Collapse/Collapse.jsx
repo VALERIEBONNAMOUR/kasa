@@ -15,8 +15,9 @@ function Collapse({ title, children }) {
           className={`arrow ${isOpen ? "open" : ""}`}
         />
       </div>
-
-      {isOpen && <div className="collapse-content">{children}</div>}
+      <div className={`collapse-content ${isOpen ? "show" : ""}`}>
+        {children}
+      </div>
     </div>
   );
 }

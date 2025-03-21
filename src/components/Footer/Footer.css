@@ -12,8 +12,6 @@
     color: white;
 }
 
-/* Responsive tablet */
-
 /* Responsive mobile */
 @media  screen and (max-width : 767px){
     .footer-rights{

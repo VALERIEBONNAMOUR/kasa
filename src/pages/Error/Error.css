@@ -33,5 +33,10 @@ a.error-link{
 
     .error-container{
         margin: 0;
+        gap: 50px !important;
+    }
+
+    h2{
+        margin: auto !important;
     }
 }

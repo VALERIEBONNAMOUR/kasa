@@ -1,0 +1,22 @@
+span{
+    font-size: 15px;
+}
+
+.host{
+    position: relative;
+    left: 85%;
+    bottom: 90px;
+    height: -400px;
+}
+
+.rating{
+    bottom: 70px;
+    left: 85%;
+    height: -400px;
+    position: relative;
+}
+
+.p{
+    font-size: 18px;
+}
+
