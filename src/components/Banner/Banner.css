@@ -4,6 +4,7 @@ img.banner-image{
     border-radius: 25px;
     object-fit: cover;
     filter: brightness(70%);
+    display: block;
 }
 
 .banner-title {
@@ -12,12 +13,17 @@ img.banner-image{
     font-weight: 500;
     font-size: 48px;
     z-index: 1;
-    margin-top: -140px;
-    text-align: center;
     width: 100%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 10px;
+    line-height: 1.2;
 }
 
 .banner-style-in-home-page {
+    position: relative;
     padding-bottom: 43px;
 }
 
@@ -25,24 +31,44 @@ img.banner-image{
     position: relative;
 }
 
+h2.banner-title{
+    margin: auto;
+}
+
 /* responsive mobile */
 @media  screen and (max-width : 767px) {
     img.banner-image{
         height: 111px;
-        /* filter: brightness(40%)!important; */
     }
 
     h2.banner-title{
-        font-size: 24px!important;
-        padding-top: 60px;
-        padding-left: 15px;
-        line-height: 24px;
-        text-align: start;
-        width: 60%;
+        font-size: 24px !important;
+        width: 80%;
+        font-weight: 700;
+        line-height: 15px;
+        left: 50%;
+        transform: translate(-50%, -50%); 
     }
 
     .banner.banner-style-in-home-page{
         padding-bottom: 12px!important;
     }
+
+    .banner-title::before {
+        visibility: visible;
+        content: "Chez vous,";
+        display: block;
+    }
+
+.banner-title::after {
+    visibility: visible;
+    content: "partout et ailleurs";
+    display: block;
+}
+
+.banner-title {
+    visibility: hidden; 
+   
+}
 
 }

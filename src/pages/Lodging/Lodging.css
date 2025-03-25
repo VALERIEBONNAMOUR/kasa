@@ -1,45 +1,55 @@
 span.tag {
-    background-color: #ff5a5f;
-    color: #fff;
-    padding: 5px 10px;
-    border-radius: 20px;
-    margin-right: 5px;
-  }
-
-h1{
-    color: #ff5a5f;
-    font-size: 25px;
+  background-color: #ff5a5f;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin-right: 5px;
 }
 
-img{
-    border-radius: 64px;
-    object-fit: cover;
+h1{
+  color: #ff5a5f;
+  font-size: 25px;
+}
+
+.lodging-rating{
+  border-radius: 64px;
+  object-fit: cover;
 }
 
 .collapse-lodging-page {
-    display: flex;
-    justify-content: space-between; 
-    gap: 80px; 
-  }
-  
+  display: flex;
+  justify-content: space-between; 
+  gap: 80px; 
+}
+
 .collapse-in-lodging {
-    flex: 1; 
-    min-width: 300px; 
+  flex: 1; 
+  min-width: 300px; 
+}
+
+.collapse {
+  width: 100%; 
+  max-width: 900px; 
+  min-height: 50px; 
+  box-sizing: border-box; 
+}
+
+.collapse-content {
+  font-size: 1.2rem; 
+}
+
+.collapse-header {
+  font-size: 1.4rem; 
+}
+
+/* Responsive mobile */
+@media  screen and (max-width : 767px){
+  .collapse-lodging-page {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
   }
 
-  .collapse {
-    width: 100%; 
-    max-width: 600px; 
-    min-height: 50px; 
-    box-sizing: border-box; 
-  }
-  
-  .collapse-content {
-    font-size: 1.2rem; 
-  }
-  
-  .collapse-header {
-    font-size: 1.4rem; 
-  }
+}
 
- 
+

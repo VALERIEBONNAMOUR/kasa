@@ -64,10 +64,10 @@ function LodgingDetails() {
                             location={lodgingData.location}
                             tags={lodgingData.tags}
                             host={
-                                <span>
+                                <h2>
                                     {lodgingData.host.name.split(' ')[0]}<br />
                                     {lodgingData.host.name.split(' ')[1]}
-                                </span>
+                                </h2>
                             }
                             picture={lodgingData.host.picture}
                             rating={renderStars()}
