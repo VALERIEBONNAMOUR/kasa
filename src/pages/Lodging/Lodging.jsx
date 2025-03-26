@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import jsonData from '../../housing.json';
 import Slideshow from '../../components/Slideshow/Slideshow';
 import redstar from '../../assets/redstar.png'
-import greystar from '../../assets/greystar.png';
+import greystar from '../../assets/greystar.svg';
 import Description from '../../components/Description/Description';
 import Collapse from '../../components/Collapse/Collapse';
 import "./Lodging.css";

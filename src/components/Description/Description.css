@@ -4,6 +4,7 @@ button.tag{
    border: none;
    gap: 10px;
    border-radius: 3px;
+   padding: 5px;
 }
 
 .tags-description{
