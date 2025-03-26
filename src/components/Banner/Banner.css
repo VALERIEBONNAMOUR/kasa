@@ -1,74 +1,54 @@
-img.banner-image{
+.banner {
+    position: relative;
+    overflow: hidden;
+}
+
+img.banner-image {
     height: 223px;
     width: 100%;
     border-radius: 25px;
     object-fit: cover;
     filter: brightness(70%);
-    display: block;
 }
 
 .banner-title {
+    margin: 0;
     position: absolute;
     color: #FFFFFF;
     font-weight: 500;
     font-size: 48px;
     z-index: 1;
-    width: 100%;
-    text-align: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 0 10px;
-    line-height: 1.2;
+    text-align: center;
+    width: 100%;
 }
 
-.banner-style-in-home-page {
-    position: relative;
-    padding-bottom: 43px;
-}
+
 
 .banner-style-in-home-page .banner-style {
     position: relative;
 }
 
-h2.banner-title{
-    margin: auto;
-}
-
 /* responsive mobile */
-@media  screen and (max-width : 767px) {
-    img.banner-image{
+@media screen and (max-width : 767px) {
+    img.banner-image {
         height: 111px;
+        /* filter: brightness(40%)!important; */
     }
 
-    h2.banner-title{
+    h2.banner-title {
         font-size: 24px !important;
-        width: 80%;
-        font-weight: 700;
-        line-height: 15px;
-        left: 50%;
-        transform: translate(-50%, -50%); 
+        left: 15px;
+        transform:translate(0px, -50%); ;
+        line-height: 24px;
+        text-align: start;
+        width: 60%;
     }
 
-    .banner.banner-style-in-home-page{
-        padding-bottom: 12px!important;
+    .banner.banner-style-in-home-page {
+        padding-bottom: 12px !important;
     }
-
-    .banner-title::before {
-        visibility: visible;
-        content: "Chez vous,";
-        display: block;
-    }
-
-.banner-title::after {
-    visibility: visible;
-    content: "partout et ailleurs";
-    display: block;
-}
-
-.banner-title {
-    visibility: hidden; 
-   
-}
 
 }
